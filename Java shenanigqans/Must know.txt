@@ -1,0 +1,1 @@
+Java path to java 17: C:\Users\ege\AppData\Roaming\PrismLauncher\java\azul_zulu_jre17.0.17
