@@ -1,0 +1,5 @@
+To run the game simply doubleclick the .exe file. 
+Once windows defender prompts a screen saying it protected your PC press "More info".
+The prompt then allows you to click "Run anyway"
+There you go you can now always play snake whenever you want to.
+:3

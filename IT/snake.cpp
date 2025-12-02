@@ -2,7 +2,6 @@
 #include <iostream>
 #include <windows.h>
 #include <cstdlib> // for rand()
-#include <ctime>   // for time()
 using namespace std;
 
 // height and width of the boundary
@@ -135,6 +134,31 @@ void UpdateGame() {
     }
 }
 
+// Function to set the game difficulty level
+int SetDifficulty() {
+    int dfc;
+    int choice;
+    cout << "\nSET DIFFICULTY\n1: Easy\n2: Medium\n3: Hard\n"
+         << "NOTE: If invalid choice, difficulty will be Medium\n"
+         << "Choose difficulty level: ";
+    cin >> choice;
+
+    switch (choice) {
+    case 1:
+        dfc = 150; // slower = easier
+        break;
+    case 2:
+        dfc = 100;
+        break;
+    case 3:
+        dfc = 50; // faster = harder
+        break;
+    default:
+        dfc = 100;
+    }
+    return dfc;
+}
+
 // Function to handle user input
 void UserInput() {
     if (_kbhit()) {
@@ -163,37 +187,12 @@ void UserInput() {
     }
 }
 
-// Function to generate a random player name
-string GenerateRandomName() {
-    string names[] = {
-        "Goofie", "Bobertus", "Zoomer", "Sneaky", "Slink", "Bytey",
-        "Chompus", "NomNom", "Wiggly", "Booper", "LilSlither", "Slinky"
-    };
-    int numNames = sizeof(names) / sizeof(names[0]);
-    return names[rand() % numNames];
-}
-
 // Main function / game loop
 int main() {
-    srand(time(0)); // seed RNG
-
-    // Generate random name
-    string playerName = GenerateRandomName();
-
-    // Random difficulty (1–3)
-    int randomChoice = (rand() % 3) + 1;
-    int dfc;
-
-    switch (randomChoice) {
-    case 1: dfc = 150; break; // Easy
-    case 2: dfc = 100; break; // Medium
-    case 3: dfc = 50; break;  // Hard
-    }
-
-    cout << "Starting Snake with player: " << playerName << endl;
-    cout << "Difficulty: " << (randomChoice == 1 ? "Easy" :
-                               randomChoice == 2 ? "Medium" : "Hard") << endl;
-    Sleep(2000); // short pause before start
+    string playerName;
+    cout << "Enter your name: ";
+    cin >> playerName;
+    int dfc = SetDifficulty();
 
     GameInit();
     while (!isGameOver) {
@@ -203,6 +202,7 @@ int main() {
         Sleep(dfc);
     }
 
-    cout << "\nGame over for the random silly! Final score for " << playerName << ": " << playerScore << endl;
+    cout << "\nGame over! :Your silly score" << playerScore << endl;
+    _getch();
     return 0;
 }
