@@ -1,0 +1,61 @@
+
+
+boolean- iga number (1 v 0 tähendab ühte bitt)
+operators; not, and, or, xor
+
+
+
+cidr-classless inter-domain routing -/32 - /8
+
+bits/bytes
+
+Subnet mask
+255.255.255.0/24
+
+apipa-automatic private internet protocol addressinv
+169.254./0.0/16
+              /
+           cidr 16
+
+lan local comnections
+
+wan internet provider port
+
+
+cable types - utp ftp stp
+vpn stuff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
