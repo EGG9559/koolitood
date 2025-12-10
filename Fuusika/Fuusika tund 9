@@ -1,0 +1,63 @@
+fuusika tund
+
+voolu tugevus-amper
+Ohmi seaduse dokument
+Roobiti elektroonika takistus jagatakse üksteise vahel
+jadamisi liidetakse tugevust
+
+jadamisi
+IK (kogu voolu tugevus)=I1+I2
+Uk=u1+u2
+Rk=r1+r2
+
+
+eoobiti
+ik+i1+i2
+Uk=u1=u2
+1   1   1
+- = - = -
+Rk  r1  r2
+
+
+UK= kogupinge
+
+
+22.6 Saab küll. Rööbiti
+22.7 Saab küll kui kaautada pinget jagavat ahelat
+22.8 62 lampi. 2 korsa rohkem = tuli. 50% lisa elektrit jaab üle
+22.9 kuna a on 0.5, iga lamp on 0.5v ningkogupinge on 30v
+22.10 kogupinge on 12v, pinge takiatil R1 on 4,8v ja R2 on 7,2v
+22.11 voolutugevys vooluringis- 0.16A. Pinge reostaadi klemmidel- 1.44V.  Kogu pinge- 2.4V
+22.12 punktid a ja b vahel- 16v. b ja c vahel- 48v. A ja C vahel- 64v.
+22.13 Takistus R on 50Ohmi
+22.14 Ampermeetri näit 1.67A. voltmeetri v2 näit 8v
+22.15 voolutugevus vooluringis 1.38A. pinge 3 ohmi lambil 4.14v. pinge 9.4 ohmi lambil 12.97v. pinge 5 ohmi lambil 6.9v
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
