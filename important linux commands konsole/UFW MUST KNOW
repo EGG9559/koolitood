@@ -1,0 +1,22 @@
+UFW REPAIR/INSTALL/START
+
+REPIR/INSTALL
+sudo pacman -Rns ufw
+sudo pacman -Sc
+sudo steamos-readonly disble
+sudo pacman -key --init
+sudo pacman -key --populate archlinux holo
+sudo pacman -S archlinux-keyring
+sudo pacman -S ufw
+
+HOW TO CONFIGURE UFW
+
+sudo systemctl enable --now ufw
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+HOW TO ENABLE/DISABLE UFW
+
+sudo ufw enablw
+sudo ufw disable
+

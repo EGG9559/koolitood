@@ -1,0 +1,25 @@
+/f fixes logical file system errors
+chkdsk c: /f 
+
+/r locates bad sectors and recovers readable data (implies /f)
+chkdsk c: /r
+
+/x Forces the volume to dismount first (implies /f) – useful when the drive is in use
+chkdsk c: /x
+
+/scan Performs an online scan on Windows 10/11 without needing a reboot (read‑only)
+chkdsk C: /scan
+
+/spotfix Quick spot‑check and fix (Windows 10+), faster than full /r
+chkdsk C: /spotfix
+
+/offlinescanandfix Runs a full scan and fix on an offline volume (requires reboot)
+chkdsk C: /offlinescanandfix
+
+/i Performs a less thorough check of index entries (faster) – used with /r
+chkdsk c: /r /i
+
+/c 	Skips checking cycles within the folder structure (faster) – used with /r
+structure (faster) – used with /r	chkdsk G: /r /c
+
+

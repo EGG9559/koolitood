@@ -1,0 +1,63 @@
+1. NETWORKING
+
+
+netstat -ano > netstat.txt	Active connections & listening ports with PID.
+Capture a baseline of open ports.
+
+ping -n 5 8.8.8.8	Simple reachability test.
+Verify that the NIC works even if DNS fails.
+
+tracert 8.8.8.8 > trace.txt	Route path to a host.
+Helpful if you later need to compare routing changes.
+
+nslookup <hostname>	DNS lookup.
+Record expected IPs for critical hosts (e.g., internal servers).
+
+
+2. SECURITY AND PERMISSIONS
+
+sfc /scannow	System File Checker – verifies and repairs protected Windows files. 
+Store network layout before moving a machine.
+
+icacls <path> /save aclfile /t	Export ACLs recursively.
+Back up permissions before moving a folder to another machine.
+
+icacls <path> /restore aclfile	Restore previously saved ACLs.
+Re‑apply original permissions after a restore.
+
+cipher /w:<folder>	Securely wipes free space (overwrites deleted data).
+Clean a drive before handing it off or repurposing it.
+
+whoami /all > whoami.txt	Shows user token groups & privileges.
+Document the current user’s rights for audit purposes.
+
+
+3. PACKAGE MANAGEMENT (incase of a portable package manager present)
+
+winget export -o packages.json	Export list of installed apps (requires Winget).
+Store packages.json in your repo; later you can reinstall with winget import packages.json.
+
+choco list -lo > choco-list.txt	List locally installed Chocolatey packages.
+Same idea as Winget – keep a manifest for re‑creation.
+
+`powershell -Command "Get-AppxPackage	Export-Clixml -Path appx.xml"
+Export all Store apps.
+
+
+4. MISC COMMANDS
+
+fsutil dirty query C:
+Checks if the volume is marked “dirty” (needs chkdisk).
+
+powercfg /batteryreport /output "%USERPROFILE%\battery-report.html"
+Generates a detailed battery health report (great for laptops).
+
+tasklist > tasks.txt
+Captures a snapshot of running processes.
+
+wmic os get Caption,Version,BuildNumber,OSArchitecture /format:list > osinfo.txt
+Saves OS version & architecture
+
+reg export HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall uninstall.reg
+Exports list of installed programs from the registry.
+

@@ -1,0 +1,68 @@
+1. STEAM INSTALLER
+
+SteamOS (Debian‑based)	
+bash sudo apt update && sudo apt install steam
+
+Fedora	
+bash sudo dnf install steam
+(REQUIREMENT TO ADD FIRST: 	Requires the RPM Fusion non‑free repository first:
+bash sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm)
+
+Common post‑install
+bash steam (first launch will download additional runtime files)
+
+2. UFW (Uncomplicated FireWall)
+
+SteamOS
+bash sudo apt install ufw
+Enable with: sudo ufw enable.
+
+Fedora	
+bash sudo dnf install ufw
+
+BASIC UFW RULE SET 	
+bash sudo ufw default deny incoming
+bash sudo ufw default allow outgoing
+bash sudo ufw allow ssh
+bash sudo ufw enable
+
+3. NECESSARY DRIVERS
+
+STEAMOS NVIDIA DRIVERS 
+bash sudo apt update && sudo apt install nvidia-driver
+restart
+
+Fedora	
+1. Enable RPM Fusion (both free & non‑free).
+bash sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+2. Install the driver:
+bash sudo dnf install akmod-nvidia (pulls the latest stable driver).
+3. Optional: sudo dnf install xorg-x11-drv-nvidia-cuda for CUDA support.
+4. restart
+
+
+Verification of successful install
+bash nvidia-smi (shows driver version, GPU utilization).
+
+AMD DRIVER INSTALLATION
+usually found in kernel
+
+SteamOS AMD DRIVERS
+bash sudo apt install firmware-amd-graphics
+
+Fedora AMD DRIVERS 
+For extra firmware:
+bash sudo dnf install amd-gpu-firmware
+
+Verification of successful install
+```bash glxinfo
+
+Intel Integrated graphics 
+Intel drivers are part of the Mesa stack. Ensure you have the latest Mesa packages:
+
+SteamOS: sudo apt install mesa-utils
+Fedora: sudo dnf install mesa-dri-drivers mesa-vulkan-drivers
+
+Verification of successful install
+```bash glxinfo

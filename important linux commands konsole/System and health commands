@@ -1,0 +1,85 @@
+1. FILE COPY AND SYNC
+
+rsync -aAXHv --delete /src/ /dst/
+Archive‑mode copy, preserves permissions, ACLs, xattrs, deletes files that vanished from source.
+
+cp -a /src/. /dst/
+Simple recursive copy preserving attributes.
+
+
+2. DISK HEALTH
+
+sudo fsck -f -y /dev/sdXn
+Force a filesystem check, auto‑answer “yes” to fixes.
+
+smartctl -a /dev/sdX (part of smartmontools)
+Show SMART health data, run self‑tests (smartctl -t long /dev/sdX).
+
+
+3. SYSTEM INTEGRITY
+
+sudo debsums -s (Debian/SteamOS)
+Verify MD5 sums of installed .deb packages.
+
+rpm -Va (Fedora)
+Verify all installed RPM packages.
+
+
+4. PACKAGE INVENTORY
+
+dpkg-query -W -f='${binary:Package} ${Version}\n' > pkglist.txt
+List all installed .deb packages.
+
+rpm -qa > pkglist.txt
+List all installed RPM packages.
+
+
+5. PERMISSIONS EXPORT
+
+getfacl -R /path > acls.txt
+Recursively dump ACLs.
+
+setfacl --restore=acls.txt
+Restore saved ACLs.
+
+
+6. NETWORK DIAGNOSTICS
+
+ip addr show > ip.txt
+Show interfaces, IPs, MACs.
+
+ss -tulnp > sockets.txt
+List listening sockets with PIDs.
+
+nmcli dev status > nmcli.txt
+NetworkManager device status.
+
+
+7. PROCESS SNAPSHOT
+
+ps aux > ps.txt
+Full process list.
+
+
+8. BATTERY HEALTH (devices with batteries)
+
+`upower -i $(upower -e
+grep BAT)`
+
+
+9. SECURE DELETE OF FREE SPACE
+
+sudo shred -vzn 0 /dev/sdX (dangerous – wipes whole disk)
+Overwrites free space. Use only on a dedicated drive you intend to wipe.
+
+
+10. SYS INFO
+
+uname -a && lsb_release -a
+Kernel + distro details.
+
+
+11. LOG COLLECTION
+
+journalctl -b > boot.log
+Current boot journal.

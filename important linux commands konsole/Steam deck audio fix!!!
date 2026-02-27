@@ -1,0 +1,13 @@
+Steam deck audio command fixes
+
+systemctl --user restart pipewire pipewire-pulse wireplumber
+
+rm -rf ~/.config/wireplumber
+
+rm -rf ~/.local/state/wireplumber
+
+rm -rf ~/.config/pulse
+
+systemctl --user daemon-reexec
+
+systemctl --user restart pipewire pipewire-pulse wireplumber
