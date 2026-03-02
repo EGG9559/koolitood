@@ -1,0 +1,112 @@
+2.1 Operating Systems
+
+OS - manages multiple processes simultaneously and manages hardware/software.
+
+Desktop/servers - more complicated than single purpose devices.
+
+Windows - not unix based
+Mac and Linux - unix based
+
+Mac - proprietary code
+
+
+2.1.1 Decision points
+
+Servers - No GUI, share one monitor and keyboard, CLI based.
+Desktops - GUI present, Ease of use prioritized, CLI optional.
+
+
+What is the devices main goal? Must be determined to decided. Certain sotware needs,  quantity of the devices and maintenance circle lifetime.
+
+Hardware upgrades come before software expense wise. 
+
+Server needs have decreased due to cloud services appearing.
+
+Stable is preferred over beta software in businesses
+The longer an old library lasts the better
+
+Physical controls - swithches- punch cards to cli usage.
+
+
+2.2 Microsoft windows
+
+16 windows versions 
+
+latest server - 2019.
+Windows developing CLI and WSL massively to fight against linux
+
+2.3. Apple MacOS
+
+FreeBSD project based, UNIX Certified, easy to use
+
+MacOS server aimed at small businesses, integrated with ios devices.
+Offered to those who dont necessarily need windows. 
+Great for productivity.
+
+
+2.4 Linux
+
+Obtained by downloadable distros.
+Brings a package manager and handles drivers and default apps by its self.
+
+Distros have a thousand purposes - servers, desktops, super computers. handheld devices and so on
+
+Much faster to fix security issues than closed source operating systems.
+ 
+Application support varies hugely by the fact of what methods do you have of running it.
+
+Dev packages to contribute code for future fixes.
+
+Stability varies hugely by distribution and release type.
+
+Linux comes in 2 modes: GUI and CLI.
+
+
+2.4.1 Linux distros
+
+RedHat - enterprise desktop with RHEL (server redhat)
+Fedora - Redhat but new for users with a short release cycle
+
+SUSE - server fucker for corpos
+openSUSE - consumer fucker for everyone
+
+Ubuntu - Canonicals child
+
+Mind - Fork of ubuntu
+
+Android - sponsored by google, most popular Linux and lies inside phones.
+
+Raspbian - raspberry pi main OS for low power and energy cost systems.
+
+LFS - Build your own Linux distro effectively from the beginning.
+
+
+2.4.2 Embedded Systems.
+
+Linux at first only worked on Linus Torvalds Intel 386 PC.
+Everyone else in the community brought the support.
+Linux single task devices are embedded systems.
+
+Linux is everywhere in every single device from solar panels to oil rigs.
+
+A network of inexpensive computers connected to sensors and controllers is called an IoT *internet of things*
+
+Release cycle indicates the frequency of updates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

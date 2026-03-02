@@ -1,0 +1,39 @@
+chapter 3
+
+3.1 Navigating the Linux desktop.
+
+ICT skills must be precent (information and communication technologly)
+
+Learn how to install Linux on desktops.
+
+3.1.1 Getting to the command line. (	CLI	)
+
+Terminals are all the same as an admin. 
+All terminals need the same knowledge of commands.
+Find the terminal.
+
+3.2 Applications.
+
+Kernel - airport
+Apps - planes
+
+App ask stuff - kernel sends stuff.
+Kernel handles multitasking.
+Process - 1 task loaded by kernel.
+Application - many loaded by kernel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

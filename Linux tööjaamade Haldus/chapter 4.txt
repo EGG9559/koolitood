@@ -1,0 +1,11 @@
+chapter 4
+
+4.1 introduction
+
+Software sold as closed source. No right to see the code.
+Linux made open source trustable.
+Developers who worked on open source code as a hobby were some of the better workers who convinced their bosses to go to Linux.
+ Unix was made in 1969
+ 4th edition came out in 1973 rewritten in C.
+Unix developers when Linux started realised compatibility is important and tried to make them as compatible as possible.
+IEEE and POSIX specification creating.
