@@ -1,0 +1,47 @@
+14.2 Basic Network Terminology
+
+host - device that communicates via a network with another device.
+internet - host x 10000 (many many hosts)
+wi-fi / wireless network
+server / Host that provides stuff to another host
+service / a thing the server gives
+router / host connector to many more hosts
+
+
+14.3 Networking Features Terminology
+packet / smaller chunks for communication to increase efficiency for communication.
+IP / uniuque address assigne to host
+mask / defines what is in what network
+hostname / simplification for people to remember what computer is what host
+url / uniuform resource locator / translates links into what a compouter understands
+dhcp / server that configures protocols for IPs aka gives network access
+DNS / translates packets into IPs for to know where to go
+ethernet / talks to the host and router in a wired environment.
+Transmission Control Protocol/Internet Protocol / protocol collection to talk to the network.
+
+14.4 IP addresses
+ipv4 old and slow and not as good
+ipv6 new and faster and better
+
+nat / makes 1 router share 1 ip with many hosts
+
+14.5 configuring network devices
+dhcp gud when wireless and moving much
+static gud when wired and not moving much
+
+14.6.x /network tools
+
+ipconfig   / old and deprecated
+ip addr show   / new and replacing ipconfig
+route   / shows where packets are sent
+ping
+netstat
+ss / shows info about remote machine connections to local machine
+dig / tests dns servers / determine ip address of host
+Host / associates ip with hostname
+
+ssh - login remotely to a local computer. Do experiment at home.
+Exit - the way to leave the remote login.
+RSA key fingerprint - check if last login matches current fingerprint. Generally fine to say yes.
+
+
