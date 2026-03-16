@@ -1,0 +1,79 @@
+FINAL EXAM STUFF
+
+
+Pipe / sent output of one command to another
+
+channel 0 / STDIN
+Channel 1 / STDOUT
+channel 2 / STDERR
+
+grep / display all lines of a file containing specified regular expression
+
+Pager commands>
+less / forward and backward / new version
+more / forward only / old version
+cat / shows entire file
+
+nl / prints lines and gives them numbers
+
+while / determines if it should run test again
+for / loops over a fixed list of items
+
+how to assign words to variables
+a="hello"
+
+$(( $i + 1))  / adds a value to a letter. 
+
+
+vram / stored on storage media, called swap, used when physical ram low
+
+fdisk is for mbr
+
+lscpu and arch show cpu info
+
+PID / fixed 1 value.
+0 / fixed for kernel
+
+var directory / files that change overtime
+
+ps -ef and ps aux show all processes on system
+
+service - feature from 1 pc to another
+
+all systems have hostnames
+
+ssh - remote login
+
+all users belogn to 1 group at least.
+who - currently logged in users
+1-499 UID - system accounts
+useradd -u allows root to specify UID with associated account
+/etc/shadow - encrypted passwords and hashes related to password aging
+useradd -g / allows you to use different primary group than default
+usermod modifies UID, GID, groups, home directory, shell etc.
+
+chmod methods - symbolic and octal. (letters and numbers)
+chown command changes who owns a file
+
+files dont have execution permission by default.
+sticky bit - cant remove files you dont own in common directory
+
+setuid - allows to run files as the owner
+
+setgid - allows to run file as group owner - own files in the directory thats owned by the group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
