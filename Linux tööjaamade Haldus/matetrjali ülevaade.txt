@@ -1,0 +1,43 @@
+op süsteemivalimine oluneb sellest mida süsteem teeb
+pager käsud: more, less
+chown- saab kasutada kasutaja kes kuulub praegusesse failigruppi.
+for - töötavad fikseeritud üksuste loendis
+while - tsüklil on iga tsükkel test, et teha kindlaks kas see peaks uuesti käima
+/etc/ppp on ABSOLUUTNE
+chmod saab kasutada omanik ja root kasutaja
+välja määramiseks kasutatakse -f cut käsku
+locate skännib faili, et määrata faili asukohta.
+getent - failikirjete vaatamiseks /etc/passwd
+kerneli ülesanne - süsteemi ressursside haldamine.
+path - keskkonnamuutuja mis sisaldab kataloogide loendit.
+/etc/passwd - fail mis sisaldab kasutajatunnuseid.
+test mis ütleb "kas 7tmp/foo on kataloog v users on suurem kui 5" on test -d /tmp/foo -o susers -gt 5
+sysadmin/Documents SUHTELINE
+käsk mis saab rühma muutmiseks kasutada: groupmod
+ls ilma argumendita LOETLEB AKTIIVSE KATALOOGI SISU.
+chmod 1777 /shared seab stickybit seaduse
+ssh nick@server1 võimaldab kontonimega nick masinasse server1 logida sisse.
+/dev/hda - esimese ide kõvaketta seadme nimi.
+chmod 775 määrab OTHER õigused failile
+käsk millega saab kasutaja viimase sisselogimise määratleda on LAST.
+rm -r EEMALDAB KATALOOGI KOOS KÕIGI FAILIDE V ALAMKATALOOGIDEGA.
+taide ~ tahendab kasutaja kodukataloogi
+egrep start!end file.txt on mis kuvab read sisaldades sonu start v end.
+yum ja rpm on pakendi haldurid
+touch varskendab olemasolevate failide ajatempliiti
+777 lubab koigil kasutajatel kataloogis faile lisada, vaadata ja kustutada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
