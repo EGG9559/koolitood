@@ -1,0 +1,20 @@
+kruptitud parooli teavega kaust - etc/shadow
+kasutaja konto teavet sisaldavad kaustad -  etc/shadow,  etc/passwd
+touch loob uusi faile ja varskendab neid
+whiler tsuklil on iga tsukkel test, et teha kindlaks kas see peaks uuesti kaima
+paketihalduskasud - dpkg ja apt-get
+avatud lahtekoodi saab muuta ja vaadata aga EI PEA muudatusi jagama
+chmod saab kasutada faili omanik ja root
+reanumbrite printimiseks kask - NL
+GETENT - etc/passwd failikirjade vaatamiseks
+virtualiseeriminme - 1 host mitmeks guestiks
+cut kasku eraldaaja maaramiseks -d OLULINE
+777 oigus lubab KOIGIL lisada faile, vaadata ja eemaldada
+/home sisaldab kasutajs kodukataloogi
+ainulyt root saab faili omaniku MUUTA
+STICKYBIT 1777 /SHARED
+YUM, YUMEX JA RPMpaketihalduskasud distributsioonile
+keskkonna muutuja PATH
+FIND maarab faili asukohta
+w ja UPTIME naitab kui kaua susteem oli tool.
+test -d /tmp/foo -o sUSERS -gt5, ge 5, test /tmp/foo -d -o sUSERS -gt 5
