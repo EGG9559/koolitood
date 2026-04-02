@@ -1,0 +1,135 @@
+binary - 0 and 0
+decimals 0 - 10
+heksadeimals
+
+Arvuti saab aru binaryst, hex on tehtud et meie saame aru.
+hex - translator - binary
+
+eniac
+cesiac
+vanad arvutid - esimesed arvutid mis elasid, et teha 1+1
+
+baudrate
+
+9600+9600 b/s
+19200-19200b/s
+1b - 0,00000012mb
+
+
+andmeedestuskiirus
+
+sata 3 - 600 mb/s datarate rawdatarate 6gbit/s
+pata - 133mb/s
+usb 1.1/2.0/3.0/3.2/4   12mb/s 480 mb/s 5gb/s 10gb/s 40gb/s (bits)
+nvme
+
+
+5G-kuni 10Gbit/s
+
+4G LTE-A-kuni 1Gbit/s (
+
+4G LTE (3.9GHz)-kuni 300Mbps/75Mbps
+
+3G UMTS-384kbps
+
+2G EDGE-260kbps/110kbps
+
+GPRS-53,6kbps
+
+GSM-9,6kbps
+
+steganomeetris - pildi sisse faili v sonumi peitmine
+
+
+ssh -- secure connection - authenticate
+Jia tan - good coder with malicious intent on injecting malware to ssh
+GOT - global offset table
+the goal - inject payload in codw and change the GOT to run the payload
+when GOT filled it then gets made READ ONLY
+gotta find the hook to use the holk for to inject payload
+xz gets asked to be removed from ssh
+jia tang tries to get in the code before xz is removed from ssh
+valgrind ruins jias code
+jia tries to fix the bug that valgrind finds - memory leak.
+fake stories to hide jias own code
+
+when a test build of fedora gets invedtigated by a german engineer the backdoor is discovered and it becomes public.
+
+
+
+
+ASCII
+
+Vana kodeering (1963)
+
+128 märki, ainult inglise tähed
+
+El toeta emojisid, täpitähti
+
+Universaalne (1980)
+
+Unikood
+
+andartne
+
+Märke on palju
+
+kõik keeled
+
+UTF-8
+
+Praktiline (2003)-99% Internetist on UTF-8 kodeeringuga
+
+Toetab kõike
+
+toetatud, igal märgil on oma kood
+
+Toetab süstem kõike, va täpitä
+
+Batiliselt htl
+
+Toetab kõike
+
+
+fail pohitoimingud
+
+
+• Loomine
+• Umbernimetamine
+• Avamine
+• Muutmine
+• Salvestamine
+• Nimi
+• Asukoht
+• Vorming / laiend
+Jne
+
+
+failil on - nimi, laiend, asukoht ja metadata.
+
+failisusteemid - ntfs, fat16, fat32, ext2, ext4, nfs, smb, hsf+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
