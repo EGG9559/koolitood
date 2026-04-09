@@ -54,7 +54,7 @@ jia tries to fix the bug that valgrind finds - memory leak.
 fake stories to hide jias own code
 
 when a test build of fedora gets investigated by a german engineer the backdoor is discovered and it becomes public.
-
+summary - XZ developer lasse collins lets jia tang to collaborate, he injects XZ with spyware, he tries to push it into xz without it being seen, load times dramatically increase, xz malicious code gets quickly found in beta builds, ssh also somewhere in the process considered removing xz as a dependecy, jia tang dissapears and the only reason jia tang failed was because of load times being too obvious and discovered.
 
 
 
