@@ -1,4 +1,4 @@
-binary - 0 and 0
+arbinary - 0 and 0
 decimals 0 - 10
 heksadeimals
 
@@ -107,7 +107,7 @@ Jne
 
 failil on - nimi, laiend, asukoht ja metadata.
 
-failisusteemid - ntfs, fat16, fat32, ext2, ext4, nfs, smb, hsf+
+failisusteemid - ntfs, fat16, fat32, ext2, ext4, nfs, smb, hsf+ exfat,apfs, btrfs 
 
 
 
