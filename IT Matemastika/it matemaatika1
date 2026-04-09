@@ -1,12 +1,12 @@
-arbinary - 0 and 0
-decimals 0 - 10
-heksadeimals
+binary - 0 and 1
+decimals 0 - 9
+hexadeimals - 0 - 9 + A B C D E F
 
 Arvuti saab aru binaryst, hex on tehtud et meie saame aru.
-hex - translator - binary
+hex - translatsioon - binary
 
-eniac
-cesiac
+eniac - esimene vana arvuti 1+1 jaoks
+cesiac - teine arvuti nagu Einac aga austraalias
 vanad arvutid - esimesed arvutid mis elasid, et teha 1+1
 
 baudrate
@@ -53,7 +53,7 @@ valgrind ruins jias code
 jia tries to fix the bug that valgrind finds - memory leak.
 fake stories to hide jias own code
 
-when a test build of fedora gets invedtigated by a german engineer the backdoor is discovered and it becomes public.
+when a test build of fedora gets investigated by a german engineer the backdoor is discovered and it becomes public.
 
 
 
@@ -62,24 +62,23 @@ ASCII
 
 Vana kodeering (1963)
 128 märki, ainult inglise tähed
-l
 El toeta emojisid, täpitähti
 Universaalne (1980)
+
 Unikood
 standartne
-Märke on palju
+Märke on palju - aga mitte kõik
 kõik keeled
 
 UTF-8
 Praktiline (2003)-99% Internetist on UTF-8 kodeeringuga
 Toetab kõike
-toetatud, igal märgil on oma kood
-Toetab süstem kõike, va täpitä
-Toetab kõike
+toetab igat märki - igal märgil oma kood.
+
 
 fail pohitoimingud
 • Loomine
-• Umbernimetamine
+• Ümbernimetamine
 • Avamine
 • Muutmine
 • Salvestamine
