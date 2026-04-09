@@ -24,15 +24,15 @@ usb 1.1/2.0/3.0/3.2/4   12mb/s 480 mb/s 5gb/s 10gb/s 40gb/s (bits)
 nvme
 
 
-5G-kuni 10Gbit/s
+5G-kuni 10Gbit/s (5.15ghz - 5.85 ghz)
 
-4G LTE-A-kuni 1Gbit/s (
+4G LTE-A-kuni 1Gbit/s (450mhz - 3.9 ghz)
 
 4G LTE (3.9GHz)-kuni 300Mbps/75Mbps
 
-3G UMTS-384kbps
+3G UMTS-384kbps (2100 mhz)
 
-2G EDGE-260kbps/110kbps
+2G EDGE-260kbps/110kbps (900/1800mhz)
 
 GPRS-53,6kbps
 
@@ -92,7 +92,11 @@ failil on - nimi, laiend, asukoht ja metadata.
 
 failisusteemid - ntfs, fat16, fat32, ext2, ext4, nfs, smb, hsf+ exfat,apfs, btrfs 
 
-
+1 bit - 0 või 1.
+1 byte - 8 nulli või ühte
+RPM - revolutions per minute - 15000, 7200 - 200/315mb/s -- 150/250mb/s
+Binary - mida arvuti teab ehk 1 v 0.
+Decimal - mida me teame ehk 1 - 9
 
 
 
