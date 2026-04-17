@@ -1,0 +1,74 @@
+IT Taristuteenused
+komponent - tarkvara / riistvara / vork / dfs - distributed file system ehk koha peal susteem / andmed / hubriid lahendused, brauserid, pilv.
+riistvara all - toojaamad ehk klaviatuurid, serverid, arvutid, hiired jne
+Riistvara alla / networking / switchid, rackid, passiivsed paneelid, serverid, ruuter
+dfs / distributed file system
+eesti riigi email -  maksud ja muu bullshit
+tarkvara komponendid / op susteem, driverid, pilve teenus jne
+teenus - midagi mis keegi annab teisele - arvuti maailmas funktsioon mida 1 arvuti annab teisele.
+rakendus - viis, kuidas kasutada teenust.
+Teenuse tarbijad ja tarbijad
+
+esimene etapp teenused - planeerimine (mida teeb teenus) / arendus / kasutusele vott (kasutajad saavad teenust kasutada) /
+teine tapp - haldus ja hooldus
+viimane etapp - asendamine v uuendamine
+probleemid - haldus, hooldus
+
+klient server arhidektuur
+peer to peer arhidektuur (p2p)
+monoliidne tahendus / uhest tukist toodetud - 1 suur tervik
+monoliidne arhidektuur / koik funktsioonid on uhes koos.
+mikro teenuste arhidektuur / keeruline hallata / paljudest vaikestets teenustest koosneb. paindlik /skaleeritav /raskem hallata
+keskne susteem / suurendub turvalisust ja vahendab kulusid / toimub uhes serveris
+haju susteem / pilve teenused / tookindlus / kiirem suhtlus suurtes susteemides /raskem hallata
+
+pilv / arvuti mis asub kusagil mujal internetis
+hea asi - saadaval koikjal.
+half asi / rentimine.
+vaga hasti skaleeritab.
+
+kui pilve susteemi hakitakse siis saab koikjale ligi.
+
+infrastructure as a service - sina tegeled kogu tarkvaraga.
+platform as a service - saad kaivitada rakendust ja kasutada teenuseid
+
+software as a service - sina ostad ja kasutad.
+
+hubriid, privaatne,
+privaatne pilv - kallim ja rohkem haldamist
+hubriid pilv - avalik ja privaatme pilv - osa privaatne osa avalik
+avalik pilv - lihtne ja vajab vahem toodetud
+
+erinevad serverid
+print serverid - kontrollib kes printib mida
+faili serverid - kiire ja lihtne ligipaas failidele
+veebiserveri teenus - teenused netis - google, youtube, pornmhub jne
+SMTP protocol - simple mail transfer protocol
+POP3 protocol - post office protocol - emailide jaoks
+kirjad ei laeta loplikult alla kuni vajutad nende peale.
+huperviisori teenus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
