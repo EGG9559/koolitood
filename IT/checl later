@@ -1,0 +1,24 @@
+Op susteem
+
+- virtuaalmasin vs konteiner
+konteiner - docker linux only
+hypervisor - hyper v, vmware, kvm jne
+
+
+-cloud vs local
+
+- selinux vs apparmor
+- selinux kasutab konteksti kaitset
+- apparmour kasutab faili kaitset
+
+/ ms defender uld kaitse
+- wdal
+- asr
+- vbs/hvci
+- uac
+- windows firewall
+- group policy
+
+group policy / keelud peale ja muud satted
+
+
