@@ -1,3 +1,11 @@
 windows apps auto update by a service in the backgroynd for when you reinstall to have the latest version start up
 go home and triple check all peripheral drivers.
 wicrosoft update catalog usage
+windows SAM account database
+domain account stuff with domain controllers and active directory shit
+
+lusermgr.msc
+ncpa.cpl
+dumbass windows rules can disable pinging devices
+gpedit.msc
+group policies with teacher = 
