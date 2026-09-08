@@ -1,0 +1,50 @@
+meedia tuubid:
+- copper cabke with ekectric impulses
+- glass/plastic fiber cable with photons
+- wireless with its waves
+
+standardiseerimine ja miks seda on vaja.
+
+ways to connect shit:
+- ports
+- NIC network interface card
+- interface 
+
+raadiod saavad saata igasuguseid laineid. näiteks:
+- IR laineid
+- mikrolained
+- meeterlaineid
+- jne
+
+ethernet is a protocol.
+standards patented by companies are proprietary.
+
+see, et masinad saaksid endaga rääkida peavad olema samad:
+- protokollid
+- liidesed
+
+latency for media types goes as follows:
+- wifi worst for latency
+- copper cable is middle of the road 
+- optical fiber cable is best
+
+not all cables are equal for example:
+- some cables do plwer only.
+- some cables to data only.
+- some cavles do both and at varying levels of speeds.
+
+all ports are interfaces but not all interfaces are ports.
+
+devicw topology:
+
+- logical topology illustrate devices, ports and then address scheme of network
+- physicial topology illustrate the location of the devices and cable installation.
+
+to sum it up logical is how the connections look like for the devices. Physical shows where is what physically.
+
+in lan star topology dominates in wan its either mesh or partial mesh.
+
+lan is in a small geographic area. wan is in a large geographic area.
+isp is the one who provides the connection to a wan connection.
+
+
