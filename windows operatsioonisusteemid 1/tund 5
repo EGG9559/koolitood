@@ -1,0 +1,4 @@
+win11 autoinstaller iso building
+learni g the hard way that anyburn needs to be unreliable and only sometimes makes a working iso file
+autounattend.xml files are hell
+hw for myself: fix setup.ps1 to make it actually install appa and not error out
