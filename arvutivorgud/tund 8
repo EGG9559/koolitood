@@ -1,0 +1,102 @@
+communication fundamentals
+e elements to communications:
+- sender aka the source
+- reciever aka the destination
+- the media aka the channel of wich is used to communicate by.
+
+All communications follow protocols wich are the rulesets to talk to other devices.
+
+rule establishment in protocols
+- identified sender and reciever
+- common language and grammar
+- speed and timing of delivery
+- cobfirmation or acknowledgement requirements
+
+the requirements of network protocols
+- message encoding
+- message formatting and encapsulating
+- messafe size
+- message timing
+- message delivery options
+
+All messages need special formats and each delivery channel has specific formats that can be used
+
+- Flow control - manages the rate of data transmission and defines how much information can be sent and the speed at wich it can be delivered
+- Response Timeout - manages how long a device waits when it does not hear a reply from the destination
+- Access method - determines when someone can send a message
+
+delivery methods can be one of the following:
+- Unicast - one to one communication
+- multicast - one to many, typically not All
+- broadcazt - one to All
+
+protocols can be implemented in 
+- software
+- hardware
+- both
+
+protocols have their own 
+function
+formats
+rules
+
+function                what it does 
+- addressing function   - identifies sender and reciever
+- reliability           - provides guaranteed delivery
+- flow control          - sequencing
+- error detection       - determines if data became corrupted
+- application interface - process to process communicaion between network applications
+
+4 main protocols                their function 
+- hypertext transfer protocol   - governs the way a web server and a web client interact / defines control and format
+- transmission control protocol - manages individual conversations / provides guaranteed delivery / manages flow control
+- internet protocol             - delives messages globally from the sender to the reciecer
+- ethernet                      - delivers messages from one NIC to another NIC on the same ethernet local area network (LAN)
+
+protocol suites - a group of inter- related protocols necessary to perform a communications function.
+protocol suires are sets of rules that work together to help solve a problem
+the protocols are viewed in terms of layers:
+- higher layers
+- lower layers
+
+interned protocol suites - TCP/iP 
+open systems integrations OSI protocols - developed by the inetrnational organization for standardization ISO and the international telecommunications union ITU
+appke talk - proprietary suite released by apple
+novell netware - proprietary suite developed by novell inc 
+
+
+TCP/IP is an open standard protocol suite that is freely available to the public  and can be used by any vendor
+a standards based protocol suite that is endorsed by the networking industry and approved by a standards organization to ensure interoperability
+during streams bit corruption isnt a problem. inside files though it is a problem
+
+open standards encourage
+- interoperability
+- competition
+- innovation
+stardards organizations are
+- vendor-neutral
+- non-profit
+- established to develop and promote the concept of open standards
+
+PDUs passing down stack are as follows
+- data (data stream)
+- segment
+- packet
+- frame
+- bits (bit stream)
+
+IMEI number is important.
+
+spurce ip address - the ip address pf the sendong device. original source of the packet
+destination ip address - the ip address of the recieving device, final destination kf the packet 
+
+
+
+
+
+
+
+
+
+
+
