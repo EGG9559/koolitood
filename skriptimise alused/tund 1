@@ -1,0 +1,12 @@
+Muutujad/varjables ülesanne: Hoida andmeid aj neid õiges kohas jagada.
+Get-member 
+Konstant - samasugused naguy muutujad aga erinevad nii, et nende väärtus skriptimise ajal ei muutu
+Konstant on vajalik, et skripti ei keeraks katki
+Massiivid lubavad ühte muutujasse lisada mitu väärtust ehk 1 muutuja sab hoida näiteks 3 väärtust
+massiivi elementide kuvamiseks - string, teenus kasutades nii: $teenus{-1} näiteks ja $mac{0}, $mac{-1}
+massiive saab sorteerida kasutades käsku $kasutajad ! sort -Descending näiteks
+Hashtable bullshit to look over again with $serverid
+võrdusoperaatorid - tuginevad true/false väärtustele
+väärtuste lisamine) $a = 1, $b = 2
+
+loogilised operaatorid: -and, -or, -xor, -not, -xnor, -nand 
