@@ -1,0 +1,25 @@
+wireshark usage - spying on the network and capturing packets.
+mac address finding
+ip addresses
+ipconfig
+frames
+your system is always online.
+even when its in the lock screen packets are moving
+opening your browser spams your network in its self.
+bytes and bits analysis.
+physical layer standards
+- iso
+- eia/tia
+- itu-t
+- ansi
+- ieee
+
+latency
+throughput
+goodput
+
+cable internals and why they are the way that they are. 
+Reasoning why cable pairs and more smaller cables are better than one single and bigger cable
+cables resist bending more when its in twisted pairs than when its one big cable.
+ethernet cable port pinouts- 8p/8c aka 8 pins 8 conductors.
+gold doesnt oxidize so thats why cable internals that are exposed to air get covered in gold
