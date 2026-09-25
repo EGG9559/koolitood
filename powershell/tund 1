@@ -1,0 +1,3 @@
+more scripts like in previous script lessons. in other words how to use task scheduler to make a program run in time intervals and how to back up your data.
+to set custom intervals - task scheduler, create task and when you get to the freqjency area set the time when it starts and how often. DO NOT CREATE SIMPLE TASKS AS THEY CANT DO THIS!
+how to add to task scheduker: create a task, tell jt to run powershell, set start options to the file and thebother optional task to run the program.
