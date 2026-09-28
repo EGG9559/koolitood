@@ -1,0 +1,6 @@
+ powershell monitoring of cpu, memory and disk usage.
+ get-counter grabs data of usage for me
+ scripts can output their files into a network drive.
+ scripts themselves cannot be on that same network drive.
+ task scheduler if hidden box is ticked hides the powershell wi dow and stops being annoying.
+ 
