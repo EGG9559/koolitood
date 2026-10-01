@@ -4,4 +4,6 @@ maintenance talk, solutions of replacing and repairing cables that go through wa
 talk about animalproofing cables against animals.
 i borrow cable and some keystones, tester, cutters and isolation remover tool.
 Cisco packet tracer physical and logical vkew work.
-Cisco packet tracer file will be bundled in the same folder as this note.
+Cisco packet tracer file will be bundled in the same folder as this note.s
+
+
