@@ -1,0 +1,9 @@
+rs 232 - the most reliable port for console, considered legacy but still standard.
+some explanation of what a coil js n what it does in te terms of power.
+coils make magnetic fields inside them for to then convert those fields back to lower power.
+transformers are a big important thing for power aswell
+
+a whole lot of linecode stuff with unipolar linecode, punchout, manchester and so on.
+USB explanation - protocol and capabilities.
+it can do power and data or only one and differently rated.
+fucjass micro usb is used as a console port on switches.

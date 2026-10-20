@@ -15,3 +15,48 @@ a shit ton pf hotkeys.
 password encryption
 config aktering and usage.
 cisco wants us to do networking so that we can provide a dhcp ip address to a pc automatically. i provided a cisco file awhile ago wich has dhcp predone so that will likely come tp hell for those who want to analyze jt.
+
+do show running-config | begin interface - it displays all interfaces along with status and description
+to only see interfaces - do show running-config | include interface
+general commands i need to rrmember 
+exit
+end
+conf t
+enable
+services password-encrypt
+login
+password
+show
+range
+no
+
+example commands il likely be running alot with similair orders
+enable
+conf t
+interface range fa0/x - fa0/x 
+shutdown/no shutdown
+description/no description
+speed 10/100
+duplex auto/full/half
+do show running-config | section/include/begin interface
+exit
+copy running-config startup-config
+dir flash
+
+en
+conf t
+hostname csv01
+ip domain-name labor.lan
+enable secdet Par240XXX
+interface vlan 1
+no shutdown x2
+ip address 192.168.100.100 255.255.255.0
+exit
+ip ssh version 2
+crypto key generate rsa general-keys modulus 4096
+ username admin1 secret Pae240XXX
+line vty 0 15 
+login local
+transport input ssh
+exit
+secret enable Par240XXX

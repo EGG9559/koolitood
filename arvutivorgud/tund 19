@@ -1,0 +1,7 @@
+working with real switches
+commands to use
+show clock
+delete flash: config.txt
+delete flash: vlan.dat
+clock set  14:26:30 20 oct 2026
+test on speedrunning config in cisco 
