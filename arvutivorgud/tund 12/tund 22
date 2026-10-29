@@ -1,0 +1,23 @@
+switches switch ethernet frames.
+mac address aging times - show mac address-table aging-time 
+LACP usage and making a channel
+
+process to make 2 switches establish a link:
+en 
+conf t 
+interface range gi1/0/1 - 2 (v gi1/0)
+channel-group1 mkde active
+shut
+interface port-channel 1
+switchport mode access
+switchport access vlan1 
+exit 
+interface range gigabitethernet1/0/1 - 2
+no shut 
+exit
+exit 
+show interface port-channel 1 summary
+
+
+cdp stuff
+cdp run

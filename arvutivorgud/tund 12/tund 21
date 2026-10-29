@@ -1,0 +1,6 @@
+frame math
+data sending format - preamble, start frame delimiter, destination address, source address, length, data, frame check sequence
+switch learns what device is where by frames
+remembers them
+when floating to find a new device it wont float on ports it knows
+
