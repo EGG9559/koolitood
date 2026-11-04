@@ -1,0 +1,6 @@
+vlan - virtual local area network.
+partition - walled off section for data.
+
+vlans can be in partitions and be defined by VIDs. Like vlan 1
+vlan 1 and 2 for example cant talk together because they are sectioned off. like ports 1234 cant talk to 5678 because of a wall - 1234 | 5678
+all devices unless told to be vlan aware will assume vlan1.
