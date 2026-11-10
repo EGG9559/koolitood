@@ -1,0 +1,44 @@
+enable
+configure terminal
+vlan 10
+name vlan1
+vlan 20
+name vlan2
+vlan 30
+name vlan3
+vlan 40
+name vlan4
+exit
+interface range GigabitEthernet 1/0/47 - 48
+switchport mode trunk
+channel-group 1 mode active
+no shutdown
+exit
+interface port-channel 1
+switchport mode trunk
+no shutdown
+exit
+interface range GigabitEthernet 1/0/1 - 4
+switchport mode access
+switchport access vlan 10
+no shutdown
+interface range GigabitEthernet 1/0/5 - 8
+switchport mode access
+switchport access vlan 20
+no shutdown
+interface range GigabitEthernet 1/0/9 - 12
+switchport mode access
+switchport access vlan 30
+no shutdown
+interface range GigabitEthernet 1/0/13 - 16
+switchport mode access
+switchport access vlan 40
+no shutdown
+interface vlan 10
+ip address 192.168.0.2 255.255.255.0
+no shutdown
+end
+copy running-config startup-config
+
+reminder - turnoff all firewalls and then you can ping through switches.
+also do all that twice for 2 switches.

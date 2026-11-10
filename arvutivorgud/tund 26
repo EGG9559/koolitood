@@ -1,0 +1,40 @@
+enable
+configure terminal
+
+interface range gi0/1 -2
+channel-group 1 mode active
+
+interface port-channel 1
+switchport mode trunk 
+/ alternative - swi mo tru
+
+channel-group 1 mode active
+exit 
+
+interface range fa0/1 - 4
+/ alternative inter ran fa0/1 -4
+switchport mode access
+/ alternative - swi mo acc
+switchport access vlan 10
+/ alternative - swi acc vlan 10
+
+interface range fa0/5 - 8
+/ alternative inter ran fa0/5 -8
+switchport mode access
+/ alternative - swi mo acc
+switchport access vlan 20
+/ alternative - swi acc vlan 20
+
+interface range fa0/9 - 12
+/ alternative inter ran fa0/9 -12
+switchport mode access
+/ alternative swi mo acc
+switchport access vlan 30
+/ alternative swi acc vlan 30
+
+interface range fa0/13 - 16
+/ alternative inter ran fa0/13 -16
+switchport mode access
+/ alternative swi mo acc
+switchport access vlan 40
+/ alternative  swi acc vlan 40
