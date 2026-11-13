@@ -47,14 +47,14 @@ en
 conf t
 hostname csv01
 ip domain-name labor.lan
-enable secdet Par240XXX
+enable secret Par240XXX
 interface vlan 1
 no shutdown x2
 ip address 192.168.100.100 255.255.255.0
 exit
 ip ssh version 2
 crypto key generate rsa general-keys modulus 4096
- username admin1 secret Pae240XXX
+username admin1 secret Par240XXX
 line vty 0 15 
 login local
 transport input ssh

@@ -1,0 +1,64 @@
+speedrun prep 
+
+switch commands
+en 
+conf t 
+inter gi0/0 
+swi mo tru
+exit
+vlan 2
+name pc
+vlan 3
+name printer
+vlan 4
+name apPrivate
+vlan 5
+name apPublic
+inter ran fa0/1-12 
+swi mo acc
+swi acc vlan 2
+inter ran fa0/13-16 
+swi mo acc
+swi acc vlan 3
+inter ran fa0/17-20
+swi mo acc
+swi acc vlan 4
+inter ran fa0/21-24
+swi mo acc
+swi acc vlan 5
+
+router commands
+inter gi0/0.2
+encaps dot1q 2
+ip address 192.168.2.1 255.255.255.0
+inter gi0/0.3
+encaps dot1q 3
+ip address 192.168.3.1 255.255.255.0
+intee gi0/0.4
+encaps dot1q 4
+ip address 192.168.4.1 255.255.255.0
+inter gi0/0.5
+encaps dot1q 5
+ip address 192.168.5.1 255.255.255.0
+
+ip dhcp excluded-address 192.168.2.1 192.168.2.99
+ip dhcp excluded-address 192.168.3.1 192.168.3.99
+ip dhcp excluded-address 192.168.4.1 192.168.4.99
+ip dhcp excluded-address 192.168.5.1 192.168.5.99
+
+ip dhcp pool 2
+network 192.168.2.0 255.255.255.0
+default-router 192.168.2.1
+dns-server 1.1.1.1
+ip dhcp pool 3 
+network 192.168.3.0 255.255.255.0
+default-router 192.168.3.1
+dna-server 1.1.1.1
+ip dhcp pool 4
+network 192.168.4.0 255.255.255.0
+default-router 192.168.4.1
+dns-server 1.1.1.1
+ip dhcp pool 5
+network 192.168.5.0 255.255.255.0
+default-router 192.168.5.1
+dna-server 1.1.1.1

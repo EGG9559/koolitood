@@ -1,0 +1,28 @@
+gateway is routee
+excel table update
+vlan planning and ip management
+a whole lot of ip math to find what you need.
+pinging printer from router
+router sets ip.
+set static ip for printers and then you can ping.
+
+things to do router edition
+inter gi0/0.2
+encapsulation dot1q 2
+ip address (address and mask)
+network (ip and mask)
+ip dhcp excluded-address (ip range) 
+ip dhcp pool 
+netwprk (ip and mask)
+default-router (gateway)
+dns server 1.1.1.1
+
+things to do switch edition
+en
+conf t
+vlan 2-5 (seperate commands)
+description
+inter ran (port range)
+swi mo acc
+swi acc vlan 2-5
+ 

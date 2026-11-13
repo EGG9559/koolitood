@@ -1,0 +1,34 @@
+ip shit 
+a class classful ip : 1.0.0.0-126.255.255.255
+b class classful ip : 128.0.0.0 - 191.255.255.255
+c class classful ip : 192.0.0.0 - 223.255.255.255
+
+iga klassi mask lisandub 255. 
+
+a : 255.0.0.0
+b : 255.255.0.0
+c : 255.255.255.0
+
+mask job - figure out what is an address, whwere is an address and how big is an address.
+level 3 routers insyead of using long masks just do /xx (x is a number).
+
+10.0.0.0 and 127.0.0.0 are loopback ips.
+169.254.0.0 is apipa address when no address is given.
+224.0.0.0/4 is multicast addressrange
+255.255.255.255 reserved networkrange for broadcast.
+0.0.0.0/0 default route 
+
+RIP, RIPV2 - routing informstion protocol, version 2.
+IGRP - interior gateway riuting protocol
+BGP - bordee gateway protocol
+OSPF - open shortest path first
+is-is - intermediate system to i termediate shstem.
+RIB - routing information base
+core router - wan and isp network router
+edge router - isp perimiter serving router
+
+nat does transkating ips to somethjng else so we have more addresses 
+
+a network can have its mask be /24, /16 and /8. the more 255s the lower the /.
+ 
+the more bits you borrow for the mask the fewer devices fit in each mask.
