@@ -1,0 +1,12 @@
+dhcp is server shit.
+osi layer 7
+you can lease out an ip and mask with dhcp.
+Yo can also share other stuff like gateway, DNS, NTP, PXE, domain etc
+ip can be renewee.
+ troubleshoot commands for ip 
+show ip dhcp pook
+show ip dhcp binding
+
+work on prepping for switch comfig speedrun
+dont forget to bring pcie to nvme card to test in school
+revise lesson 29 with alternative linee for faater commands
