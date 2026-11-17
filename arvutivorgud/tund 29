@@ -3,56 +3,61 @@ speedrun prep
 switch commands
 en 
 conf t 
+spanning-tree portfast default 
+spanning-tree portfast bpduguard default
+
 inter gi0/0 
 swi mo tru
 exit
-inter ran fa0/1-12 
+inter
+ran fa0/1-12 
+
 swi mo acc
-swi acc vlan 2
+swi acc vlan 21
 inter ran fa0/13-16 
 swi mo acc
-swi acc vlan 3
+swi acc vlan 31
 inter ran fa0/17-20
 swi mo acc
-swi acc vlan 4
+swi acc vlan 41
 inter ran fa0/21-24
 swi mo acc
-swi acc vlan 5
+swi acc vlan 51
 
 router commands
 inter gi0/0.2
-encaps dot1q 2
-ip address 192.168.2.1 255.255.255.0
+encaps dot1q 21
+ip address 192.168.21.1 255.255.255.0
 inter gi0/0.3
-encaps dot1q 3
-ip address 192.168.3.1 255.255.255.0
+encaps dot1q 31
+ip address 192.168.31.1 255.255.255.0
 intee gi0/0.4
-encaps dot1q 4
-ip address 192.168.4.1 255.255.255.0
+encaps dot1q 41
+ip address 192.168.41.1 255.255.255.0
 inter gi0/0.5
-encaps dot1q 5
-ip address 192.168.5.1 255.255.255.0
+encaps dot1q 51
+ip address 192.168.51.1 255.255.255.0
 
-ip dhcp excl 192.168.2.1 192.168.2.99
-ip dhcp excl 192.168.3.1 192.168.3.99
-ip dhcp excl 192.168.4.1 192.168.4.99
-ip dhcp excl 192.168.5.1 192.168.5.99
+ip dhcp excl 192.168.21.1 192.168.21.33
+ip dhcp excl 192.168.31.1 192.168.31.33
+ip dhcp excl 192.168.41.1 192.168.41.33
+ip dhcp excl 192.168.51.1 192.168.51.33
 
-ip dhcp pool 2
-network 192.168.2.0 255.255.255.0
-default-router 192.168.2.1
+ip dhcp pool 21
+network 192.168.21.0 255.255.255.0
+default-router 192.168.21.1
 dns-server 1.1.1.1
-ip dhcp pool 3 
-network 192.168.3.0 255.255.255.0
-default-router 192.168.3.1
+ip dhcp pool 31
+network 192.168.31.0 255.255.255.0
+default-router 192.168.31.1
 dna-server 1.1.1.1
-ip dhcp pool 4
-network 192.168.4.0 255.255.255.0
-default-router 192.168.4.1
+ip dhcp pool 41
+network 192.168.41.0 255.255.255.0
+default-router 192.168.41.1
 dns-server 1.1.1.1
-ip dhcp pool 5
-network 192.168.5.0 255.255.255.0
-default-router 192.168.5.1
+ip dhcp pool 51
+network 192.168.51.0 255.255.255.0
+default-router 192.168.51.1
 dna-server 1.1.1.1
 
 extra stuff 

@@ -1,0 +1,15 @@
+dhcp snooping - only allow dhcp from one location.
+max security - require specific mac addresses to connect.
+at home add dhcp server
+run lesson 29 config
+give dhcp server the following
+
+under services
+dhcp
+1.1.1.1
+2.2.2.2
+192.168.2.1
+255.255.255.0
+
+fuck around and try to connect it inplace of the rputer woth dhcp snooping and watch how ir reacts n so on
+ 
