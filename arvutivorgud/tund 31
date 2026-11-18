@@ -1,4 +1,9 @@
-dhcp snooping - only allow dhcp from one location.
+dhcp snooping stuff
+-ip dhcp snooping vlan 2-4 (vlanide range)
+-no ip dhcp snooping information option
+-interface gi0/1 (see mis ruuterisse phendub)
+-ip dhcp snooping trust
+
 max security - require specific mac addresses to connect.
 at home add dhcp server
 run lesson 29 config
