@@ -1,0 +1,37 @@
+to do pat configs
+
+
+ip access-list  standard nat-list
+permit 192.168.2.0 0.0.0.255
+permit 192.168.4.0 0.0.0.255
+permit 192.168.5.0 0.0.0.255
+inter gi0/0.2-5
+ip nat inside
+inter gi0/1 
+ip nat outside
+ip nat inside source list nat-list inter gi0/1 overload
+
+RIP configs
+do show ip route
+remember addresses shown
+router rip
+network (address) example: network 10.0.0.0 (add addresses you remembered)
+
+isp is an EGP - exterior gateway protocol
+routers in say homes or organizatiobs are IGP - interior gateway protocol
+
+igp protocols are such as: rip, eigrp, ospf, isis
+egp protocol only has bgp.
+
+difference - bgp is slower but more stable and secure. any igp protocol is faster and more responsive
+
+distance vector protocol - send your info to the next that then sends its info to the next and so on till all routers know all.
+
+how to use ospf 
+en
+conf t
+router ospf 0
+network (ip) (wildcard) area 0    - example: network 10.0.0.0 0.0.0.255 area 0
+
+default config, port channel and spanning tree protection  mega speedrun (combined)
+sub interfaces, sub interface routing and acl

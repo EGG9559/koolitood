@@ -1,0 +1,6 @@
+isp router adding
+isp router gets random ip connected in a triangle of router
+ip route (address) mask (address)
+
+how to route network through many router
+tcp and udp protocol explanation and how static, dynamic and pat nat types work.
