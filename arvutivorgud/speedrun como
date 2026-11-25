@@ -13,11 +13,6 @@ login local
 transport input ssh
 exit
 banner motd #SSH ONLY#
-vlan 2
-vlan 3
-vlan 4
-vlan 5
-vlan 99
 int ran f0/1-2,f0/13-14,f0/17,f0/21
 sw mo acc
 span portfast
