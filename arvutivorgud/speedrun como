@@ -1,0 +1,94 @@
+switch commands
+
+en
+clock set 10:30:00 25 Nov 2026
+conf t
+enable secret Par240XXX
+ip domain-name labor.lan
+username admin secret Par240XXX
+ip ssh ver 2
+crypto key generate rsa general-keys modulus 4096
+line vty 0 15
+login local
+transport input ssh
+exit
+banner motd #SSH ONLY#
+vlan 2
+vlan 3
+vlan 4
+vlan 5
+vlan 99
+int ran f0/1-2,f0/13-14,f0/17,f0/21
+sw mo acc
+span portfast
+span bpduguard en
+exit
+int ran f0/1-2
+sw acc vlan 2
+int ran f0/13-14
+sw acc vlan 3
+int f0/17
+sw acc vlan 4
+int f0/21
+sw acc vlan 5
+exit
+int g0/1
+sw mo tru
+exit
+int ran f0/3-12,f0/15-16,f0/18-20,f0/22-24,g0/2
+sh
+exit
+int vlan 99
+ip add 192.168.99.10 255.255.255.0
+no sh
+end
+wr
+
+router commands
+
+en
+clock set 10:30:00 25 Nov 2026
+conf t
+enable secret Par240XXX
+ip domain-name labor.lan
+username admin secret Par240XXX
+ip ssh ver 2
+crypto key generate rsa general-keys modulus 4096
+line vty 0 15
+login local
+transport inp ssh
+exit
+banner motd #SSH ONLY#
+int g0/0
+no sh
+int g0/0.2
+encap dot1Q 2
+ip add 192.168.2.1 255.255.255.0
+int g0/0.3
+encap dot1Q 3
+ip add 192.168.3.1 255.255.255.0
+int g0/0.4
+encap dot1Q 4
+ip add 192.168.4.1 255.255.255.0
+int g0/0.5
+encap dot1Q 5
+ip add 192.168.5.1 255.255.255.0
+exit
+ip dhcp ex 192.168.2.1 192.168.2.30
+ip dhcp ex 192.168.3.1 192.168.3.30
+ip dhcp ex 192.168.4.1 192.168.4.30
+ip dhcp ex 192.168.5.1 192.168.5.30
+ip dhcp pool v2
+network 192.168.2.0 255.255.255.0
+default-router 192.168.2.1
+ip dhcp pool v3
+network 192.168.3.0 255.255.255.0
+default-router 192.168.3.1
+ip dhcp pool v4
+network 192.168.4.0 255.255.255.0
+default-router 192.168.4.1
+ip dhcp pool v5
+network 192.168.5.0 255.255.255.0
+default-router 192.168.5.1
+end
+wr
