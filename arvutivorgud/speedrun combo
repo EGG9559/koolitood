@@ -12,8 +12,8 @@ line vty 0 15
 login local
 transport input ssh
 exit
-banner motd #SSH ONLY#
-int ran f0/1-2,f0/13-14,f0/17,f0/21
+banner motd #egg#
+int ran f0/1-24
 sw mo acc
 span portfast
 span bpduguard en
@@ -53,7 +53,7 @@ line vty 0 15
 login local
 transport inp ssh
 exit
-banner motd #SSH ONLY#
+banner motd #egg#
 int g0/0
 no sh
 int g0/0.2
@@ -87,3 +87,9 @@ network 192.168.5.0 255.255.255.0
 default-router 192.168.5.1
 end
 wr
+
+
+
+
+
+speedrun is due by nov27 so prep before that day
