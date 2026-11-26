@@ -1,0 +1,9 @@
+syslog - system for logging files 
+logs stored on 1 server
+en
+conf t 
+logging host (server ip)
+
+NTP server - network time protocol
+ntp is needed on a server because network devices dont hold their own time after restarts.
+ntp is protected so timestamps wpnt be tampered with on logs for efficient troubleshooting
